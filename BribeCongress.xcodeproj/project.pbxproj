@@ -1,0 +1,563 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		94B3BD422064015000EA8C16 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94B3BD412064015000EA8C16 /* AppDelegate.swift */; };
+		94B3BD442064015000EA8C16 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94B3BD432064015000EA8C16 /* ViewController.swift */; };
+		94B3BD472064015000EA8C16 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 94B3BD452064015000EA8C16 /* Main.storyboard */; };
+		94B3BD492064015000EA8C16 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 94B3BD482064015000EA8C16 /* Assets.xcassets */; };
+		94B3BD4C2064015000EA8C16 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 94B3BD4A2064015000EA8C16 /* LaunchScreen.storyboard */; };
+		94B3BD572064015000EA8C16 /* BribeCongressTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94B3BD562064015000EA8C16 /* BribeCongressTests.swift */; };
+		94B3BD622064015000EA8C16 /* BribeCongressUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94B3BD612064015000EA8C16 /* BribeCongressUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		94B3BD532064015000EA8C16 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 94B3BD362064015000EA8C16 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 94B3BD3D2064015000EA8C16;
+			remoteInfo = BribeCongress;
+		};
+		94B3BD5E2064015000EA8C16 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 94B3BD362064015000EA8C16 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 94B3BD3D2064015000EA8C16;
+			remoteInfo = BribeCongress;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		94B3BD3E2064015000EA8C16 /* BribeCongress.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BribeCongress.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		94B3BD412064015000EA8C16 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		94B3BD432064015000EA8C16 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		94B3BD462064015000EA8C16 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		94B3BD482064015000EA8C16 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		94B3BD4B2064015000EA8C16 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		94B3BD4D2064015000EA8C16 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		94B3BD522064015000EA8C16 /* BribeCongressTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BribeCongressTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		94B3BD562064015000EA8C16 /* BribeCongressTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BribeCongressTests.swift; sourceTree = "<group>"; };
+		94B3BD582064015000EA8C16 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		94B3BD5D2064015000EA8C16 /* BribeCongressUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BribeCongressUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		94B3BD612064015000EA8C16 /* BribeCongressUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BribeCongressUITests.swift; sourceTree = "<group>"; };
+		94B3BD632064015000EA8C16 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		94B3BD3B2064015000EA8C16 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		94B3BD4F2064015000EA8C16 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		94B3BD5A2064015000EA8C16 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		94B3BD352064015000EA8C16 = {
+			isa = PBXGroup;
+			children = (
+				94B3BD402064015000EA8C16 /* BribeCongress */,
+				94B3BD552064015000EA8C16 /* BribeCongressTests */,
+				94B3BD602064015000EA8C16 /* BribeCongressUITests */,
+				94B3BD3F2064015000EA8C16 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		94B3BD3F2064015000EA8C16 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				94B3BD3E2064015000EA8C16 /* BribeCongress.app */,
+				94B3BD522064015000EA8C16 /* BribeCongressTests.xctest */,
+				94B3BD5D2064015000EA8C16 /* BribeCongressUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		94B3BD402064015000EA8C16 /* BribeCongress */ = {
+			isa = PBXGroup;
+			children = (
+				94B3BD412064015000EA8C16 /* AppDelegate.swift */,
+				94B3BD432064015000EA8C16 /* ViewController.swift */,
+				94B3BD452064015000EA8C16 /* Main.storyboard */,
+				94B3BD482064015000EA8C16 /* Assets.xcassets */,
+				94B3BD4A2064015000EA8C16 /* LaunchScreen.storyboard */,
+				94B3BD4D2064015000EA8C16 /* Info.plist */,
+			);
+			path = BribeCongress;
+			sourceTree = "<group>";
+		};
+		94B3BD552064015000EA8C16 /* BribeCongressTests */ = {
+			isa = PBXGroup;
+			children = (
+				94B3BD562064015000EA8C16 /* BribeCongressTests.swift */,
+				94B3BD582064015000EA8C16 /* Info.plist */,
+			);
+			path = BribeCongressTests;
+			sourceTree = "<group>";
+		};
+		94B3BD602064015000EA8C16 /* BribeCongressUITests */ = {
+			isa = PBXGroup;
+			children = (
+				94B3BD612064015000EA8C16 /* BribeCongressUITests.swift */,
+				94B3BD632064015000EA8C16 /* Info.plist */,
+			);
+			path = BribeCongressUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		94B3BD3D2064015000EA8C16 /* BribeCongress */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 94B3BD662064015000EA8C16 /* Build configuration list for PBXNativeTarget "BribeCongress" */;
+			buildPhases = (
+				94B3BD3A2064015000EA8C16 /* Sources */,
+				94B3BD3B2064015000EA8C16 /* Frameworks */,
+				94B3BD3C2064015000EA8C16 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BribeCongress;
+			productName = BribeCongress;
+			productReference = 94B3BD3E2064015000EA8C16 /* BribeCongress.app */;
+			productType = "com.apple.product-type.application";
+		};
+		94B3BD512064015000EA8C16 /* BribeCongressTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 94B3BD692064015000EA8C16 /* Build configuration list for PBXNativeTarget "BribeCongressTests" */;
+			buildPhases = (
+				94B3BD4E2064015000EA8C16 /* Sources */,
+				94B3BD4F2064015000EA8C16 /* Frameworks */,
+				94B3BD502064015000EA8C16 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				94B3BD542064015000EA8C16 /* PBXTargetDependency */,
+			);
+			name = BribeCongressTests;
+			productName = BribeCongressTests;
+			productReference = 94B3BD522064015000EA8C16 /* BribeCongressTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		94B3BD5C2064015000EA8C16 /* BribeCongressUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 94B3BD6C2064015000EA8C16 /* Build configuration list for PBXNativeTarget "BribeCongressUITests" */;
+			buildPhases = (
+				94B3BD592064015000EA8C16 /* Sources */,
+				94B3BD5A2064015000EA8C16 /* Frameworks */,
+				94B3BD5B2064015000EA8C16 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				94B3BD5F2064015000EA8C16 /* PBXTargetDependency */,
+			);
+			name = BribeCongressUITests;
+			productName = BribeCongressUITests;
+			productReference = 94B3BD5D2064015000EA8C16 /* BribeCongressUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		94B3BD362064015000EA8C16 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = "John Bogil";
+				TargetAttributes = {
+					94B3BD3D2064015000EA8C16 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					94B3BD512064015000EA8C16 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 94B3BD3D2064015000EA8C16;
+					};
+					94B3BD5C2064015000EA8C16 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 94B3BD3D2064015000EA8C16;
+					};
+				};
+			};
+			buildConfigurationList = 94B3BD392064015000EA8C16 /* Build configuration list for PBXProject "BribeCongress" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 94B3BD352064015000EA8C16;
+			productRefGroup = 94B3BD3F2064015000EA8C16 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				94B3BD3D2064015000EA8C16 /* BribeCongress */,
+				94B3BD512064015000EA8C16 /* BribeCongressTests */,
+				94B3BD5C2064015000EA8C16 /* BribeCongressUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		94B3BD3C2064015000EA8C16 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				94B3BD4C2064015000EA8C16 /* LaunchScreen.storyboard in Resources */,
+				94B3BD492064015000EA8C16 /* Assets.xcassets in Resources */,
+				94B3BD472064015000EA8C16 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		94B3BD502064015000EA8C16 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		94B3BD5B2064015000EA8C16 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		94B3BD3A2064015000EA8C16 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				94B3BD442064015000EA8C16 /* ViewController.swift in Sources */,
+				94B3BD422064015000EA8C16 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		94B3BD4E2064015000EA8C16 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				94B3BD572064015000EA8C16 /* BribeCongressTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		94B3BD592064015000EA8C16 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				94B3BD622064015000EA8C16 /* BribeCongressUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		94B3BD542064015000EA8C16 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 94B3BD3D2064015000EA8C16 /* BribeCongress */;
+			targetProxy = 94B3BD532064015000EA8C16 /* PBXContainerItemProxy */;
+		};
+		94B3BD5F2064015000EA8C16 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 94B3BD3D2064015000EA8C16 /* BribeCongress */;
+			targetProxy = 94B3BD5E2064015000EA8C16 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		94B3BD452064015000EA8C16 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				94B3BD462064015000EA8C16 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		94B3BD4A2064015000EA8C16 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				94B3BD4B2064015000EA8C16 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		94B3BD642064015000EA8C16 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		94B3BD652064015000EA8C16 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		94B3BD672064015000EA8C16 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4Y3GGL46D2;
+				INFOPLIST_FILE = BribeCongress/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = johnbogil.BribeCongress;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		94B3BD682064015000EA8C16 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4Y3GGL46D2;
+				INFOPLIST_FILE = BribeCongress/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = johnbogil.BribeCongress;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		94B3BD6A2064015000EA8C16 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4Y3GGL46D2;
+				INFOPLIST_FILE = BribeCongressTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = johnbogil.BribeCongressTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BribeCongress.app/BribeCongress";
+			};
+			name = Debug;
+		};
+		94B3BD6B2064015000EA8C16 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4Y3GGL46D2;
+				INFOPLIST_FILE = BribeCongressTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = johnbogil.BribeCongressTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BribeCongress.app/BribeCongress";
+			};
+			name = Release;
+		};
+		94B3BD6D2064015000EA8C16 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4Y3GGL46D2;
+				INFOPLIST_FILE = BribeCongressUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = johnbogil.BribeCongressUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = BribeCongress;
+			};
+			name = Debug;
+		};
+		94B3BD6E2064015000EA8C16 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4Y3GGL46D2;
+				INFOPLIST_FILE = BribeCongressUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = johnbogil.BribeCongressUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = BribeCongress;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		94B3BD392064015000EA8C16 /* Build configuration list for PBXProject "BribeCongress" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				94B3BD642064015000EA8C16 /* Debug */,
+				94B3BD652064015000EA8C16 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		94B3BD662064015000EA8C16 /* Build configuration list for PBXNativeTarget "BribeCongress" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				94B3BD672064015000EA8C16 /* Debug */,
+				94B3BD682064015000EA8C16 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		94B3BD692064015000EA8C16 /* Build configuration list for PBXNativeTarget "BribeCongressTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				94B3BD6A2064015000EA8C16 /* Debug */,
+				94B3BD6B2064015000EA8C16 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		94B3BD6C2064015000EA8C16 /* Build configuration list for PBXNativeTarget "BribeCongressUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				94B3BD6D2064015000EA8C16 /* Debug */,
+				94B3BD6E2064015000EA8C16 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 94B3BD362064015000EA8C16 /* Project object */;
+}
