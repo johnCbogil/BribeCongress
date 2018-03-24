@@ -18,6 +18,7 @@ class ChooseStateViewController: UIViewController, UITableViewDataSource, UITabl
         super.viewDidLoad()
         self.readStateNames()
         self.configureTableView()
+        self.title = "Which State Would You Like To View?"
     }
     
     func configureTableView() {
@@ -35,7 +36,7 @@ class ChooseStateViewController: UIViewController, UITableViewDataSource, UITabl
                     let state : State = State.init(with: dict.value, stateCode: dict.key)
                     statesArray.append(state)
                 }
-                statesArray = statesArray.sorted { $0.name < $1.name}
+                statesArray = statesArray.sorted {$0.name < $1.name}
             } catch {
                 // handle error
             }
@@ -56,5 +57,7 @@ class ChooseStateViewController: UIViewController, UITableViewDataSource, UITabl
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
         tableView.deselectRow(at: indexPath, animated: true)
         print(statesArray[indexPath.row].code)
+        let chooseRepVC : ChooseRepViewController = self.storyboard!.instantiateViewController(withIdentifier: "ChooseRepViewController") as! ChooseRepViewController
+        self.navigationController?.pushViewController(chooseRepVC, animated: true)
     }
 }
