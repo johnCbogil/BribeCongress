@@ -22,8 +22,8 @@ class ChooseStateViewController: UIViewController, UITableViewDataSource, UITabl
     }
     
     func configureTableView() {
-        tableView.delegate = self;
-        tableView.dataSource = self;
+        tableView.delegate = self
+        tableView.dataSource = self
     }
     
     func readStateNames() {
@@ -44,7 +44,7 @@ class ChooseStateViewController: UIViewController, UITableViewDataSource, UITabl
     }
     
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        return statesArray.count;
+        return statesArray.count
     }
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {

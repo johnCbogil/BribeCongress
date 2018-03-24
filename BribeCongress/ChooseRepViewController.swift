@@ -8,12 +8,11 @@
 
 import UIKit
 
-class ChooseRepViewController: UIViewController {
+class ChooseRepViewController: UIViewController, UITableViewDataSource, UITableViewDelegate {
     
     var state : State!
+    var repsArray : Array<Rep>!
     
-//    NSString *formattedString = [NSString stringWithFormat:@"http://www.opensecrets.org/api/?method=candContrib&cid=%@&cycle=2016&apikey=c152b047d8d1697d89d824f265d43df3&output=json", repID];
-
     override func viewDidLoad() {
         super.viewDidLoad()
         self.fetchReps()
@@ -31,13 +30,27 @@ class ChooseRepViewController: UIViewController {
 
             // parse the result as JSON, since that's what the API provides
             do {
-                 let repsDict = try JSONSerialization.jsonObject(with: data!, options: []) as? [String: Any]
-                print(repsDict)
+                let json = try JSONSerialization.jsonObject(with: data!, options: [])
+                print(json)
             } catch  {
                 print("error trying to convert data to JSON")
                 return
             }
         }
         sessionTask.resume()
+    }
+    
+    func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
+        return repsArray.count
+    }
+    
+    func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
+        let cell = UITableViewCell.init(style: UITableViewCellStyle.default, reuseIdentifier: "cell")
+        cell.textLabel?.text = repsArray[indexPath.row].fullName
+        return cell
+    }
+    
+    func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        tableView.deselectRow(at: indexPath, animated: true)
     }
 }
