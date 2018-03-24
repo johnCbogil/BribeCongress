@@ -25,9 +25,21 @@ class Rep {
     var website : String?
     var youtube : String?
     
-    
-    init(With dict: Dictionary<String,String>) {
-        
+    init(with dict: [String:String]) {
+        bioguideID = dict["bioguide_id"]
+        birthday = dict["birthdate"]
+        facebook = dict["facebook_id"]
+        firstElected = dict["first_elected"]
+        fullName = dict["firstlast"]
+        gender = dict["gender"]
+        office = dict["office"]
+        lastName = dict["lastname"]
+        party = dict["party"]
+        phone = dict["phone"]
+        twitter = dict["twitter_id"]
+        webform = dict["webform"]
+        website = dict["website"]
+        youtube = dict["youtube_url"]
     }
     
 }
