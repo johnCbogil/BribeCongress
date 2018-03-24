@@ -11,13 +11,14 @@ import UIKit
 class ChooseStateViewController: UIViewController, UITableViewDataSource, UITableViewDelegate {
     
     @IBOutlet weak var tableView: UITableView!
-    var stateNamesDict: [String: AnyObject] = [:]
-
+    
+    var stateCodesArray = [String]()
+    var stateNamesArray = [String]()
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-
-       self.readStateNames()
-        
+        self.readStateNames()
+        self.configureTableView()
     }
     
     func configureTableView() {
@@ -29,9 +30,12 @@ class ChooseStateViewController: UIViewController, UITableViewDataSource, UITabl
         // Extract the json
         if let path = Bundle.main.path(forResource: "States", ofType: "json") {
             do {
-               let data = try Data(contentsOf: URL(fileURLWithPath: path), options: .mappedIfSafe)
-                stateNamesDict = try JSONSerialization.jsonObject(with: data, options: .mutableLeaves) as! Dictionary<String, AnyObject>
-                print(stateNamesDict)
+                let data = try Data(contentsOf: URL(fileURLWithPath: path), options: .mappedIfSafe)
+                let statesDict = try JSONSerialization.jsonObject(with: data, options: .mutableLeaves) as! Dictionary<String, String>
+                stateNamesArray.append(contentsOf: statesDict.values)
+                stateNamesArray = stateNamesArray.sorted { $0.localizedCaseInsensitiveCompare($1) == ComparisonResult.orderedAscending }
+                stateCodesArray.append(contentsOf: statesDict.keys)
+                print(statesDict)
             } catch {
                 // handle error
             }
@@ -39,11 +43,12 @@ class ChooseStateViewController: UIViewController, UITableViewDataSource, UITabl
     }
     
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        return 0;
+        return stateNamesArray.count;
     }
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        let cell = tableView.dequeueReusableCell(withIdentifier: "cell")
-        return cell!
+        let cell = UITableViewCell.init(style: UITableViewCellStyle.default, reuseIdentifier: "cell")
+        cell.textLabel?.text = stateNamesArray[indexPath.row]
+        return cell
     }
 }
