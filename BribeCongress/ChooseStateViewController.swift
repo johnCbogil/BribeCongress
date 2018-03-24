@@ -56,8 +56,8 @@ class ChooseStateViewController: UIViewController, UITableViewDataSource, UITabl
     
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
         tableView.deselectRow(at: indexPath, animated: true)
-        print(statesArray[indexPath.row].code)
         let chooseRepVC : ChooseRepViewController = self.storyboard!.instantiateViewController(withIdentifier: "ChooseRepViewController") as! ChooseRepViewController
+        chooseRepVC.state = statesArray[indexPath.row]
         self.navigationController?.pushViewController(chooseRepVC, animated: true)
     }
 }

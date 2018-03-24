@@ -6,8 +6,6 @@
 //  Copyright © 2018 John Bogil. All rights reserved.
 //
 
-import UIKit
-
 class State {
     
     var code : String
