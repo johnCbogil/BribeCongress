@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		945080E52066AB9500E855FC /* State.swift in Sources */ = {isa = PBXBuildFile; fileRef = 945080E42066AB9500E855FC /* State.swift */; };
 		94B3BD422064015000EA8C16 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94B3BD412064015000EA8C16 /* AppDelegate.swift */; };
 		94B3BD472064015000EA8C16 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 94B3BD452064015000EA8C16 /* Main.storyboard */; };
 		94B3BD492064015000EA8C16 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 94B3BD482064015000EA8C16 /* Assets.xcassets */; };
@@ -35,6 +36,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		945080E42066AB9500E855FC /* State.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = State.swift; sourceTree = "<group>"; };
 		94B3BD3E2064015000EA8C16 /* BribeCongress.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BribeCongress.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		94B3BD412064015000EA8C16 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		94B3BD462064015000EA8C16 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -106,6 +108,7 @@
 				94B3BD4D2064015000EA8C16 /* Info.plist */,
 				94B3BD6F2064031200EA8C16 /* States.json */,
 				94B3BD752064039D00EA8C16 /* ChooseStateViewController.swift */,
+				945080E42066AB9500E855FC /* State.swift */,
 			);
 			path = BribeCongress;
 			sourceTree = "<group>";
@@ -265,6 +268,7 @@
 			files = (
 				94B3BD762064039D00EA8C16 /* ChooseStateViewController.swift in Sources */,
 				94B3BD422064015000EA8C16 /* AppDelegate.swift in Sources */,
+				945080E52066AB9500E855FC /* State.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
