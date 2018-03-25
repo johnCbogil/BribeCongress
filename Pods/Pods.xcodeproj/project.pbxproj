@@ -1,0 +1,860 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0E4E1F9701450D1070A0C3192BA970E3 /* Pods-BribeCongressUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F0ABBF51FCA0D7035F6E66ACE9FD1B4F /* Pods-BribeCongressUITests-dummy.m */; };
+		29A3C3FCECCF33F24B9D437C1DA05B0D /* Pods-BribeCongress-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 76C3B032B507ACC953A4B90F66C5DE4B /* Pods-BribeCongress-dummy.m */; };
+		2C0B634637FF791F995E5E5BB11C51C2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		4445867040AD86A7C3F240F7047ACC74 /* Pods-BribeCongressTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D3C0BDD4FD618789BFF2144EB00921A /* Pods-BribeCongressTests-dummy.m */; };
+		4783FD964F156BC4B417E3022F95C943 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		4E2B9837D70BD98BE1F71008BF865999 /* Pods-BribeCongressTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 87F09AECDF7AEB5A2020E01A1D589A74 /* Pods-BribeCongressTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		56248FD9200BD6FFC7886A34F2E7285D /* Pods-BribeCongressUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 5F721FD89E55B80135E3537A88EE241F /* Pods-BribeCongressUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7F963E7F39A030043E95567667913B29 /* SwiftyJSON-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 32B9BBA8F5B33E56C38F5546432F66B7 /* SwiftyJSON-dummy.m */; };
+		AD16B0464CFB5A850DEC41BC28BE0F8E /* SwiftyJSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDE506ECE97701EBA44FDBFF401C1A04 /* SwiftyJSON.swift */; };
+		D53AF278C67300AEBBAEA2AE23B681C4 /* Pods-BribeCongress-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E3E6F0CE14B88976E36228430A9F86CC /* Pods-BribeCongress-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DFB08D5200B709B0BD1F78A5EEEE9781 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		EF850785C97B5248FD36827936895546 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		F42020771BB9F9C0131CC4072B66735C /* SwiftyJSON-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 05CA09B061E193906653AC21FD3A94F1 /* SwiftyJSON-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		323B5A87EB3C94CCA34518A6AB09ED1C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5843C9055CC95026F2475C7C909B2C17;
+			remoteInfo = SwiftyJSON;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		041E6A2798A821DACE820C230C4837A3 /* Pods-BribeCongress-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-BribeCongress-acknowledgements.plist"; sourceTree = "<group>"; };
+		05CA09B061E193906653AC21FD3A94F1 /* SwiftyJSON-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SwiftyJSON-umbrella.h"; sourceTree = "<group>"; };
+		109D1B19993B05750A5B7DE4FAD7E793 /* SwiftyJSON.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SwiftyJSON.framework; path = SwiftyJSON.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		15868FEFB191167EC2057827079C7D8A /* Pods-BribeCongress.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-BribeCongress.modulemap"; sourceTree = "<group>"; };
+		2616C548B28100AEDE4D3AE5E78E428F /* Pods-BribeCongressUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-BribeCongressUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		2D76064541E40FD29E83DD579AFF6AEE /* Pods-BribeCongressTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-BribeCongressTests.modulemap"; sourceTree = "<group>"; };
+		2E7F7C62EE34D2D271E6E1234A2002B2 /* SwiftyJSON.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SwiftyJSON.xcconfig; sourceTree = "<group>"; };
+		2F3E35CA55ED5B3C75942A570F22CB00 /* Pods-BribeCongress-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-BribeCongress-frameworks.sh"; sourceTree = "<group>"; };
+		32B9BBA8F5B33E56C38F5546432F66B7 /* SwiftyJSON-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SwiftyJSON-dummy.m"; sourceTree = "<group>"; };
+		3F2E477B5D6054D72B3C6C9F8780D933 /* Pods-BribeCongressTests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-BribeCongressTests-frameworks.sh"; sourceTree = "<group>"; };
+		40A3155D22DD0C1AF87CC163AC672590 /* Pods_BribeCongress.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_BribeCongress.framework; path = "Pods-BribeCongress.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		43AF5ADB2460AC80B80503D741437FF9 /* Pods_BribeCongressUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_BribeCongressUITests.framework; path = "Pods-BribeCongressUITests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		454D6B878411B902B75ADFDA754CEF49 /* Pods-BribeCongressTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-BribeCongressTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		57E7D5F5FDB16019E7028D80821B1A06 /* Pods-BribeCongressUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-BribeCongressUITests.modulemap"; sourceTree = "<group>"; };
+		5C4EE097539616FC372D7566FBFE88D0 /* Pods-BribeCongressTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-BribeCongressTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		5D3C0BDD4FD618789BFF2144EB00921A /* Pods-BribeCongressTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-BribeCongressTests-dummy.m"; sourceTree = "<group>"; };
+		5F4E43AC15B27B7DCDF4722D49BECC06 /* Pods-BribeCongressUITests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-BribeCongressUITests-frameworks.sh"; sourceTree = "<group>"; };
+		5F721FD89E55B80135E3537A88EE241F /* Pods-BribeCongressUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-BribeCongressUITests-umbrella.h"; sourceTree = "<group>"; };
+		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		72ED45B7581C7666D9588F4D34A0A293 /* Pods-BribeCongress-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-BribeCongress-resources.sh"; sourceTree = "<group>"; };
+		76390FCCB9E682AB7F734AFF0AB218E3 /* Pods-BribeCongressUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-BribeCongressUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		76C3B032B507ACC953A4B90F66C5DE4B /* Pods-BribeCongress-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-BribeCongress-dummy.m"; sourceTree = "<group>"; };
+		7ACA2E31B2BD75FC0AB4A12F75AF0F3E /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		87F09AECDF7AEB5A2020E01A1D589A74 /* Pods-BribeCongressTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-BribeCongressTests-umbrella.h"; sourceTree = "<group>"; };
+		8D3D47109862F9E0DC8CAA6E09330EF2 /* Pods-BribeCongress-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-BribeCongress-acknowledgements.markdown"; sourceTree = "<group>"; };
+		91BC7B7DE22B6F0EF1100837FD102B24 /* Pods_BribeCongressTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_BribeCongressTests.framework; path = "Pods-BribeCongressTests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9BDF7F7AE13CC007037619CF0DD487A9 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B0338A2845611B51DCC2EC7263C553E0 /* Pods-BribeCongressUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-BribeCongressUITests-acknowledgements.plist"; sourceTree = "<group>"; };
+		B3CCBE005E95E4C87980D22CBF3122DA /* Pods-BribeCongressTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-BribeCongressTests.release.xcconfig"; sourceTree = "<group>"; };
+		BBB9D02C9AF9048B5A66748269E7D7B4 /* Pods-BribeCongressUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-BribeCongressUITests.release.xcconfig"; sourceTree = "<group>"; };
+		BBF610E40BDF6E542FA21FF7E5491205 /* SwiftyJSON-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SwiftyJSON-prefix.pch"; sourceTree = "<group>"; };
+		BDE506ECE97701EBA44FDBFF401C1A04 /* SwiftyJSON.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwiftyJSON.swift; path = Source/SwiftyJSON.swift; sourceTree = "<group>"; };
+		C4A9A658C966F6BB111BEDBDEA1F874A /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C69A7559718171F899D57E9576C48E66 /* Pods-BribeCongress.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-BribeCongress.release.xcconfig"; sourceTree = "<group>"; };
+		D032A29E584B77AE187E586922267CF5 /* SwiftyJSON.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = SwiftyJSON.modulemap; sourceTree = "<group>"; };
+		D5FDF57C5969B8794C897E6C99C76857 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DAA704C1447FF35F1C12754D39F589F8 /* Pods-BribeCongressUITests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-BribeCongressUITests-resources.sh"; sourceTree = "<group>"; };
+		E3E6F0CE14B88976E36228430A9F86CC /* Pods-BribeCongress-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-BribeCongress-umbrella.h"; sourceTree = "<group>"; };
+		E75DE78983AFB44EC9110F52D002B724 /* Pods-BribeCongressTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-BribeCongressTests.debug.xcconfig"; sourceTree = "<group>"; };
+		E802377AF60CD2D9839887D0BA7FE2FD /* Pods-BribeCongressTests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-BribeCongressTests-resources.sh"; sourceTree = "<group>"; };
+		F0ABBF51FCA0D7035F6E66ACE9FD1B4F /* Pods-BribeCongressUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-BribeCongressUITests-dummy.m"; sourceTree = "<group>"; };
+		FE68502E64253E25BA39A7A2623E7AA4 /* Pods-BribeCongress.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-BribeCongress.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2F00EA8643BAD1D12F6D738C19859B95 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF850785C97B5248FD36827936895546 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		71AB034C97C890641B89410FAD31BABA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4783FD964F156BC4B417E3022F95C943 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A3D186517BC5107F51E22505DC24749E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2C0B634637FF791F995E5E5BB11C51C2 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E98938A05E4675ACE91AFCBF20398189 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DFB08D5200B709B0BD1F78A5EEEE9781 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1ABCB6951D8C95712DBC086ABC071F51 /* Pods-BribeCongressUITests */ = {
+			isa = PBXGroup;
+			children = (
+				7ACA2E31B2BD75FC0AB4A12F75AF0F3E /* Info.plist */,
+				57E7D5F5FDB16019E7028D80821B1A06 /* Pods-BribeCongressUITests.modulemap */,
+				2616C548B28100AEDE4D3AE5E78E428F /* Pods-BribeCongressUITests-acknowledgements.markdown */,
+				B0338A2845611B51DCC2EC7263C553E0 /* Pods-BribeCongressUITests-acknowledgements.plist */,
+				F0ABBF51FCA0D7035F6E66ACE9FD1B4F /* Pods-BribeCongressUITests-dummy.m */,
+				5F4E43AC15B27B7DCDF4722D49BECC06 /* Pods-BribeCongressUITests-frameworks.sh */,
+				DAA704C1447FF35F1C12754D39F589F8 /* Pods-BribeCongressUITests-resources.sh */,
+				5F721FD89E55B80135E3537A88EE241F /* Pods-BribeCongressUITests-umbrella.h */,
+				76390FCCB9E682AB7F734AFF0AB218E3 /* Pods-BribeCongressUITests.debug.xcconfig */,
+				BBB9D02C9AF9048B5A66748269E7D7B4 /* Pods-BribeCongressUITests.release.xcconfig */,
+			);
+			name = "Pods-BribeCongressUITests";
+			path = "Target Support Files/Pods-BribeCongressUITests";
+			sourceTree = "<group>";
+		};
+		42A5D9731E13774D9A4D2FB2080C1AE4 /* Pods-BribeCongressTests */ = {
+			isa = PBXGroup;
+			children = (
+				D5FDF57C5969B8794C897E6C99C76857 /* Info.plist */,
+				2D76064541E40FD29E83DD579AFF6AEE /* Pods-BribeCongressTests.modulemap */,
+				5C4EE097539616FC372D7566FBFE88D0 /* Pods-BribeCongressTests-acknowledgements.markdown */,
+				454D6B878411B902B75ADFDA754CEF49 /* Pods-BribeCongressTests-acknowledgements.plist */,
+				5D3C0BDD4FD618789BFF2144EB00921A /* Pods-BribeCongressTests-dummy.m */,
+				3F2E477B5D6054D72B3C6C9F8780D933 /* Pods-BribeCongressTests-frameworks.sh */,
+				E802377AF60CD2D9839887D0BA7FE2FD /* Pods-BribeCongressTests-resources.sh */,
+				87F09AECDF7AEB5A2020E01A1D589A74 /* Pods-BribeCongressTests-umbrella.h */,
+				E75DE78983AFB44EC9110F52D002B724 /* Pods-BribeCongressTests.debug.xcconfig */,
+				B3CCBE005E95E4C87980D22CBF3122DA /* Pods-BribeCongressTests.release.xcconfig */,
+			);
+			name = "Pods-BribeCongressTests";
+			path = "Target Support Files/Pods-BribeCongressTests";
+			sourceTree = "<group>";
+		};
+		6C05016A0F9816D34D402E3100010BF9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				40A3155D22DD0C1AF87CC163AC672590 /* Pods_BribeCongress.framework */,
+				91BC7B7DE22B6F0EF1100837FD102B24 /* Pods_BribeCongressTests.framework */,
+				43AF5ADB2460AC80B80503D741437FF9 /* Pods_BribeCongressUITests.framework */,
+				109D1B19993B05750A5B7DE4FAD7E793 /* SwiftyJSON.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		70A8E4D3C62B6C203D238581DA091C21 /* SwiftyJSON */ = {
+			isa = PBXGroup;
+			children = (
+				BDE506ECE97701EBA44FDBFF401C1A04 /* SwiftyJSON.swift */,
+				8EC39E1DC11846207722B71AAFE40F98 /* Support Files */,
+			);
+			name = SwiftyJSON;
+			path = SwiftyJSON;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				BD1E3C710F12F4B4C092FC8E2AD22110 /* Pods */,
+				6C05016A0F9816D34D402E3100010BF9 /* Products */,
+				D5847C3381C9525347F2BE05D43E1BE1 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		8EC39E1DC11846207722B71AAFE40F98 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				C4A9A658C966F6BB111BEDBDEA1F874A /* Info.plist */,
+				D032A29E584B77AE187E586922267CF5 /* SwiftyJSON.modulemap */,
+				2E7F7C62EE34D2D271E6E1234A2002B2 /* SwiftyJSON.xcconfig */,
+				32B9BBA8F5B33E56C38F5546432F66B7 /* SwiftyJSON-dummy.m */,
+				BBF610E40BDF6E542FA21FF7E5491205 /* SwiftyJSON-prefix.pch */,
+				05CA09B061E193906653AC21FD3A94F1 /* SwiftyJSON-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/SwiftyJSON";
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D35AF013A5F0BAD4F32504907A52519E /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BD1E3C710F12F4B4C092FC8E2AD22110 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				70A8E4D3C62B6C203D238581DA091C21 /* SwiftyJSON */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		D35AF013A5F0BAD4F32504907A52519E /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		D5847C3381C9525347F2BE05D43E1BE1 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				F4EA2CB0BEA43AC64E239711997BCD58 /* Pods-BribeCongress */,
+				42A5D9731E13774D9A4D2FB2080C1AE4 /* Pods-BribeCongressTests */,
+				1ABCB6951D8C95712DBC086ABC071F51 /* Pods-BribeCongressUITests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		F4EA2CB0BEA43AC64E239711997BCD58 /* Pods-BribeCongress */ = {
+			isa = PBXGroup;
+			children = (
+				9BDF7F7AE13CC007037619CF0DD487A9 /* Info.plist */,
+				15868FEFB191167EC2057827079C7D8A /* Pods-BribeCongress.modulemap */,
+				8D3D47109862F9E0DC8CAA6E09330EF2 /* Pods-BribeCongress-acknowledgements.markdown */,
+				041E6A2798A821DACE820C230C4837A3 /* Pods-BribeCongress-acknowledgements.plist */,
+				76C3B032B507ACC953A4B90F66C5DE4B /* Pods-BribeCongress-dummy.m */,
+				2F3E35CA55ED5B3C75942A570F22CB00 /* Pods-BribeCongress-frameworks.sh */,
+				72ED45B7581C7666D9588F4D34A0A293 /* Pods-BribeCongress-resources.sh */,
+				E3E6F0CE14B88976E36228430A9F86CC /* Pods-BribeCongress-umbrella.h */,
+				FE68502E64253E25BA39A7A2623E7AA4 /* Pods-BribeCongress.debug.xcconfig */,
+				C69A7559718171F899D57E9576C48E66 /* Pods-BribeCongress.release.xcconfig */,
+			);
+			name = "Pods-BribeCongress";
+			path = "Target Support Files/Pods-BribeCongress";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		38412D52A47B118BAB96FD4198D7C076 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D53AF278C67300AEBBAEA2AE23B681C4 /* Pods-BribeCongress-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7E2D86F98CD4F0479BD778274B3078AC /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F42020771BB9F9C0131CC4072B66735C /* SwiftyJSON-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CE13966BC2067B8D1CC3D24F90DCFDAA /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				56248FD9200BD6FFC7886A34F2E7285D /* Pods-BribeCongressUITests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA793ABFB6B2C5CD16E6B8B1DB279034 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4E2B9837D70BD98BE1F71008BF865999 /* Pods-BribeCongressTests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		4CE623354962A4EC16F88123592852B6 /* Pods-BribeCongress */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7026F3C60ACEC9011235C4635DDF086F /* Build configuration list for PBXNativeTarget "Pods-BribeCongress" */;
+			buildPhases = (
+				18D0D51915E3D005BB99FADC05D340C7 /* Sources */,
+				A3D186517BC5107F51E22505DC24749E /* Frameworks */,
+				38412D52A47B118BAB96FD4198D7C076 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				26EFDF0A667FF9A0E5805F0DBD1AEA6D /* PBXTargetDependency */,
+			);
+			name = "Pods-BribeCongress";
+			productName = "Pods-BribeCongress";
+			productReference = 40A3155D22DD0C1AF87CC163AC672590 /* Pods_BribeCongress.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		5843C9055CC95026F2475C7C909B2C17 /* SwiftyJSON */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 59F5DED2F21CDCE4215F89D3D6E79BB6 /* Build configuration list for PBXNativeTarget "SwiftyJSON" */;
+			buildPhases = (
+				05754482DA66BE4988FA5F81C2BFD884 /* Sources */,
+				E98938A05E4675ACE91AFCBF20398189 /* Frameworks */,
+				7E2D86F98CD4F0479BD778274B3078AC /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SwiftyJSON;
+			productName = SwiftyJSON;
+			productReference = 109D1B19993B05750A5B7DE4FAD7E793 /* SwiftyJSON.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		A9F864BCAD991753CB4255EF04E93350 /* Pods-BribeCongressUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 896FC279808C3C35800DE5BC23C945A7 /* Build configuration list for PBXNativeTarget "Pods-BribeCongressUITests" */;
+			buildPhases = (
+				F36A53A7E85C4F62CEEC8E3F49495244 /* Sources */,
+				71AB034C97C890641B89410FAD31BABA /* Frameworks */,
+				CE13966BC2067B8D1CC3D24F90DCFDAA /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-BribeCongressUITests";
+			productName = "Pods-BribeCongressUITests";
+			productReference = 43AF5ADB2460AC80B80503D741437FF9 /* Pods_BribeCongressUITests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		F5DDAC7453353E9D0AABF96168A8455E /* Pods-BribeCongressTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 748FFEA122810C35B38EE676D3E7B774 /* Build configuration list for PBXNativeTarget "Pods-BribeCongressTests" */;
+			buildPhases = (
+				D1EAE84511E8F771ADB9C6FF0DF43227 /* Sources */,
+				2F00EA8643BAD1D12F6D738C19859B95 /* Frameworks */,
+				FA793ABFB6B2C5CD16E6B8B1DB279034 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-BribeCongressTests";
+			productName = "Pods-BribeCongressTests";
+			productReference = 91BC7B7DE22B6F0EF1100837FD102B24 /* Pods_BribeCongressTests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 6C05016A0F9816D34D402E3100010BF9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4CE623354962A4EC16F88123592852B6 /* Pods-BribeCongress */,
+				F5DDAC7453353E9D0AABF96168A8455E /* Pods-BribeCongressTests */,
+				A9F864BCAD991753CB4255EF04E93350 /* Pods-BribeCongressUITests */,
+				5843C9055CC95026F2475C7C909B2C17 /* SwiftyJSON */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		05754482DA66BE4988FA5F81C2BFD884 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7F963E7F39A030043E95567667913B29 /* SwiftyJSON-dummy.m in Sources */,
+				AD16B0464CFB5A850DEC41BC28BE0F8E /* SwiftyJSON.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18D0D51915E3D005BB99FADC05D340C7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				29A3C3FCECCF33F24B9D437C1DA05B0D /* Pods-BribeCongress-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D1EAE84511E8F771ADB9C6FF0DF43227 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4445867040AD86A7C3F240F7047ACC74 /* Pods-BribeCongressTests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F36A53A7E85C4F62CEEC8E3F49495244 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0E4E1F9701450D1070A0C3192BA970E3 /* Pods-BribeCongressUITests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		26EFDF0A667FF9A0E5805F0DBD1AEA6D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SwiftyJSON;
+			target = 5843C9055CC95026F2475C7C909B2C17 /* SwiftyJSON */;
+			targetProxy = 323B5A87EB3C94CCA34518A6AB09ED1C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		075F83D158C71AD7BC6C7C0BF028D33B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C69A7559718171F899D57E9576C48E66 /* Pods-BribeCongress.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-BribeCongress/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-BribeCongress/Pods-BribeCongress.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_BribeCongress;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		3739A122C9CE1B429FAF770C9C8FEDA6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2E7F7C62EE34D2D271E6E1234A2002B2 /* SwiftyJSON.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SwiftyJSON/SwiftyJSON-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SwiftyJSON/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SwiftyJSON/SwiftyJSON.modulemap";
+				PRODUCT_NAME = SwiftyJSON;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		39C5BC78A31CDE101068C530CAC7FA0F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		4D39BAC0629BE443110A780D37C62B56 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B3CCBE005E95E4C87980D22CBF3122DA /* Pods-BribeCongressTests.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-BribeCongressTests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-BribeCongressTests/Pods-BribeCongressTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_BribeCongressTests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		4ECD60D398D2014618D7037BE6E81C41 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FE68502E64253E25BA39A7A2623E7AA4 /* Pods-BribeCongress.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-BribeCongress/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-BribeCongress/Pods-BribeCongress.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_BribeCongress;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		6B2D500BD1AAE6C978F55CD16401E5CF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E75DE78983AFB44EC9110F52D002B724 /* Pods-BribeCongressTests.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-BribeCongressTests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-BribeCongressTests/Pods-BribeCongressTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_BribeCongressTests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		89C8BB24E37B25BAEEB8FBA01EE05DAF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		AF09AAC1DF377A3D0E728D30EB9D2A00 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 76390FCCB9E682AB7F734AFF0AB218E3 /* Pods-BribeCongressUITests.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-BribeCongressUITests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-BribeCongressUITests/Pods-BribeCongressUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_BribeCongressUITests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		B0DA85ADE1F9825EB61F917A7E4B19B8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BBB9D02C9AF9048B5A66748269E7D7B4 /* Pods-BribeCongressUITests.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-BribeCongressUITests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-BribeCongressUITests/Pods-BribeCongressUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_BribeCongressUITests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		EA743E2D4E356B1F7C0CC23D0152403B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2E7F7C62EE34D2D271E6E1234A2002B2 /* SwiftyJSON.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SwiftyJSON/SwiftyJSON-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SwiftyJSON/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SwiftyJSON/SwiftyJSON.modulemap";
+				PRODUCT_NAME = SwiftyJSON;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				39C5BC78A31CDE101068C530CAC7FA0F /* Debug */,
+				89C8BB24E37B25BAEEB8FBA01EE05DAF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		59F5DED2F21CDCE4215F89D3D6E79BB6 /* Build configuration list for PBXNativeTarget "SwiftyJSON" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EA743E2D4E356B1F7C0CC23D0152403B /* Debug */,
+				3739A122C9CE1B429FAF770C9C8FEDA6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7026F3C60ACEC9011235C4635DDF086F /* Build configuration list for PBXNativeTarget "Pods-BribeCongress" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4ECD60D398D2014618D7037BE6E81C41 /* Debug */,
+				075F83D158C71AD7BC6C7C0BF028D33B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		748FFEA122810C35B38EE676D3E7B774 /* Build configuration list for PBXNativeTarget "Pods-BribeCongressTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6B2D500BD1AAE6C978F55CD16401E5CF /* Debug */,
+				4D39BAC0629BE443110A780D37C62B56 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		896FC279808C3C35800DE5BC23C945A7 /* Build configuration list for PBXNativeTarget "Pods-BribeCongressUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AF09AAC1DF377A3D0E728D30EB9D2A00 /* Debug */,
+				B0DA85ADE1F9825EB61F917A7E4B19B8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

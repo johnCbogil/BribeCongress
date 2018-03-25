@@ -18,6 +18,9 @@
 		94B3BD622064015000EA8C16 /* BribeCongressUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94B3BD612064015000EA8C16 /* BribeCongressUITests.swift */; };
 		94B3BD702064031200EA8C16 /* States.json in Resources */ = {isa = PBXBuildFile; fileRef = 94B3BD6F2064031200EA8C16 /* States.json */; };
 		94B3BD762064039D00EA8C16 /* ChooseStateViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94B3BD752064039D00EA8C16 /* ChooseStateViewController.swift */; };
+		BFB02E06D8B670D83C83E6DE /* Pods_BribeCongressUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4D32129D4FF0E643D56888D6 /* Pods_BribeCongressUITests.framework */; };
+		C3FEC237757EFAF98C5032D0 /* Pods_BribeCongressTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 71BBF062956F6BE9C4FDE94E /* Pods_BribeCongressTests.framework */; };
+		FE2330703CAEE67DED23B107 /* Pods_BribeCongress.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 58C173218DD5769A0391293C /* Pods_BribeCongress.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,6 +41,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		32EDC7A07CB7243286975CBD /* Pods-BribeCongressTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BribeCongressTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BribeCongressTests/Pods-BribeCongressTests.debug.xcconfig"; sourceTree = "<group>"; };
+		4D32129D4FF0E643D56888D6 /* Pods_BribeCongressUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BribeCongressUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		58C173218DD5769A0391293C /* Pods_BribeCongress.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BribeCongress.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		71BBF062956F6BE9C4FDE94E /* Pods_BribeCongressTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BribeCongressTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7372B2143EC95BA95304125C /* Pods-BribeCongressUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BribeCongressUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-BribeCongressUITests/Pods-BribeCongressUITests.release.xcconfig"; sourceTree = "<group>"; };
 		945080E42066AB9500E855FC /* State.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = State.swift; sourceTree = "<group>"; };
 		945080E62066BB7F00E855FC /* ChooseRepViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChooseRepViewController.swift; sourceTree = "<group>"; };
 		945080E82066CA2800E855FC /* Rep.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Rep.swift; sourceTree = "<group>"; };
@@ -55,6 +63,10 @@
 		94B3BD632064015000EA8C16 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		94B3BD6F2064031200EA8C16 /* States.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = States.json; sourceTree = "<group>"; };
 		94B3BD752064039D00EA8C16 /* ChooseStateViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChooseStateViewController.swift; sourceTree = "<group>"; };
+		B05D188CE475BBC2CA74877D /* Pods-BribeCongressUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BribeCongressUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BribeCongressUITests/Pods-BribeCongressUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		B7AF79AC2B5472396F1AB05C /* Pods-BribeCongress.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BribeCongress.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BribeCongress/Pods-BribeCongress.debug.xcconfig"; sourceTree = "<group>"; };
+		E13C684EA6C616999776A1D2 /* Pods-BribeCongress.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BribeCongress.release.xcconfig"; path = "Pods/Target Support Files/Pods-BribeCongress/Pods-BribeCongress.release.xcconfig"; sourceTree = "<group>"; };
+		E87B8BD4FDE71247E09AE70E /* Pods-BribeCongressTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BribeCongressTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-BribeCongressTests/Pods-BribeCongressTests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +74,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FE2330703CAEE67DED23B107 /* Pods_BribeCongress.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -69,6 +82,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C3FEC237757EFAF98C5032D0 /* Pods_BribeCongressTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -76,12 +90,36 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BFB02E06D8B670D83C83E6DE /* Pods_BribeCongressUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		28A174503D474C90130D52B3 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B7AF79AC2B5472396F1AB05C /* Pods-BribeCongress.debug.xcconfig */,
+				E13C684EA6C616999776A1D2 /* Pods-BribeCongress.release.xcconfig */,
+				32EDC7A07CB7243286975CBD /* Pods-BribeCongressTests.debug.xcconfig */,
+				E87B8BD4FDE71247E09AE70E /* Pods-BribeCongressTests.release.xcconfig */,
+				B05D188CE475BBC2CA74877D /* Pods-BribeCongressUITests.debug.xcconfig */,
+				7372B2143EC95BA95304125C /* Pods-BribeCongressUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		4CDA662342E2288ACEAEB173 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				58C173218DD5769A0391293C /* Pods_BribeCongress.framework */,
+				71BBF062956F6BE9C4FDE94E /* Pods_BribeCongressTests.framework */,
+				4D32129D4FF0E643D56888D6 /* Pods_BribeCongressUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		94B3BD352064015000EA8C16 = {
 			isa = PBXGroup;
 			children = (
@@ -89,6 +127,8 @@
 				94B3BD552064015000EA8C16 /* BribeCongressTests */,
 				94B3BD602064015000EA8C16 /* BribeCongressUITests */,
 				94B3BD3F2064015000EA8C16 /* Products */,
+				28A174503D474C90130D52B3 /* Pods */,
+				4CDA662342E2288ACEAEB173 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -144,9 +184,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 94B3BD662064015000EA8C16 /* Build configuration list for PBXNativeTarget "BribeCongress" */;
 			buildPhases = (
+				CE1CFB00BB273BBD2EF530F5 /* [CP] Check Pods Manifest.lock */,
 				94B3BD3A2064015000EA8C16 /* Sources */,
 				94B3BD3B2064015000EA8C16 /* Frameworks */,
 				94B3BD3C2064015000EA8C16 /* Resources */,
+				64494BBF652F14DE629AE4EF /* [CP] Embed Pods Frameworks */,
+				13988AD68E3A5B4343D62AAB /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -161,9 +204,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 94B3BD692064015000EA8C16 /* Build configuration list for PBXNativeTarget "BribeCongressTests" */;
 			buildPhases = (
+				141DC5E40B7598C2FFE25E84 /* [CP] Check Pods Manifest.lock */,
 				94B3BD4E2064015000EA8C16 /* Sources */,
 				94B3BD4F2064015000EA8C16 /* Frameworks */,
 				94B3BD502064015000EA8C16 /* Resources */,
+				B969E3FF191E3F6B020E5F2A /* [CP] Embed Pods Frameworks */,
+				99065499360A57B1A1925E53 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -179,9 +225,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 94B3BD6C2064015000EA8C16 /* Build configuration list for PBXNativeTarget "BribeCongressUITests" */;
 			buildPhases = (
+				5BDCD1AF6D32720C0588A6F8 /* [CP] Check Pods Manifest.lock */,
 				94B3BD592064015000EA8C16 /* Sources */,
 				94B3BD5A2064015000EA8C16 /* Frameworks */,
 				94B3BD5B2064015000EA8C16 /* Resources */,
+				E17473F90E2F3423A9CA5698 /* [CP] Embed Pods Frameworks */,
+				971DDD0E8486A3A7489F51C7 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -266,6 +315,156 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		13988AD68E3A5B4343D62AAB /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-BribeCongress/Pods-BribeCongress-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		141DC5E40B7598C2FFE25E84 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-BribeCongressTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5BDCD1AF6D32720C0588A6F8 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-BribeCongressUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		64494BBF652F14DE629AE4EF /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-BribeCongress/Pods-BribeCongress-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyJSON.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-BribeCongress/Pods-BribeCongress-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		971DDD0E8486A3A7489F51C7 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-BribeCongressUITests/Pods-BribeCongressUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		99065499360A57B1A1925E53 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-BribeCongressTests/Pods-BribeCongressTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B969E3FF191E3F6B020E5F2A /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-BribeCongressTests/Pods-BribeCongressTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CE1CFB00BB273BBD2EF530F5 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-BribeCongress-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E17473F90E2F3423A9CA5698 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-BribeCongressUITests/Pods-BribeCongressUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		94B3BD3A2064015000EA8C16 /* Sources */ = {
@@ -440,6 +639,7 @@
 		};
 		94B3BD672064015000EA8C16 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B7AF79AC2B5472396F1AB05C /* Pods-BribeCongress.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -455,6 +655,7 @@
 		};
 		94B3BD682064015000EA8C16 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E13C684EA6C616999776A1D2 /* Pods-BribeCongress.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -470,6 +671,7 @@
 		};
 		94B3BD6A2064015000EA8C16 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 32EDC7A07CB7243286975CBD /* Pods-BribeCongressTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -487,6 +689,7 @@
 		};
 		94B3BD6B2064015000EA8C16 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E87B8BD4FDE71247E09AE70E /* Pods-BribeCongressTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -504,6 +707,7 @@
 		};
 		94B3BD6D2064015000EA8C16 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B05D188CE475BBC2CA74877D /* Pods-BribeCongressUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -520,6 +724,7 @@
 		};
 		94B3BD6E2064015000EA8C16 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7372B2143EC95BA95304125C /* Pods-BribeCongressUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
