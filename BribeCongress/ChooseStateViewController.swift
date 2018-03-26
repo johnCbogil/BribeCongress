@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import SwiftyJSON
 
 class ChooseStateViewController: UIViewController, UITableViewDataSource, UITableViewDelegate {
     
@@ -31,14 +32,15 @@ class ChooseStateViewController: UIViewController, UITableViewDataSource, UITabl
         if let path = Bundle.main.path(forResource: "States", ofType: "json") {
             do {
                 let data = try Data(contentsOf: URL(fileURLWithPath: path), options: .mappedIfSafe)
-                let jsonResultDict = try JSONSerialization.jsonObject(with: data, options: .mutableLeaves) as! Dictionary<String,String>
-                for dict in jsonResultDict {
-                    let state : State = State.init(with: dict.value, stateCode: dict.key)
+                let json = JSON(data: data)
+                let statesDict : Dictionary = json.dictionaryValue
+                for (stateCode, stateName) in statesDict {
+                    let state : State = State.init(with: stateName.stringValue, stateCode: stateCode)
                     statesArray.append(state)
                 }
                 statesArray = statesArray.sorted {$0.name < $1.name}
             } catch {
-                // handle error
+                print("Unable to fetch states file")
             }
         }
     }
