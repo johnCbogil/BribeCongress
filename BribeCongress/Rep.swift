@@ -7,6 +7,7 @@
 //
 
 import Foundation
+import SwiftyJSON
 
 class Rep {
     
@@ -25,21 +26,21 @@ class Rep {
     var website : String?
     var youtube : String?
     
-    init(with dict: [String:String]) {
-        bioguideID = dict["bioguide_id"]
-        birthday = dict["birthdate"]
-        facebook = dict["facebook_id"]
-        firstElected = dict["first_elected"]
-        fullName = dict["firstlast"]
-        gender = dict["gender"]
-        office = dict["office"]
-        lastName = dict["lastname"]
-        party = dict["party"]
-        phone = dict["phone"]
-        twitter = dict["twitter_id"]
-        webform = dict["webform"]
-        website = dict["website"]
-        youtube = dict["youtube_url"]
+    init(with dict:JSON) {
+        print(dict)
+//        bioguideID = dict["bioguide_id"].stringValue
+//        birthday = dict["birthdate"]?.stringValue
+//        facebook = dict["facebook_id"]?.stringValue
+//        firstElected = dict["first_elected"]?.stringValue
+//        fullName = dict["firstlast"]?.stringValue
+//        gender = dict["gender"]?.stringValue
+//        office = dict["office"]?.stringValue
+//        lastName = dict["lastname"]?.stringValue
+//        party = dict["party"]?.stringValue
+//        phone = dict["phone"]?.stringValue
+//        twitter = dict["twitter_id"]?.stringValue
+//        webform = dict["webform"]?.stringValue
+//        website = dict["website"]?.stringValue
+//        youtube = dict["youtube_url"]?.stringValue
     }
-    
 }

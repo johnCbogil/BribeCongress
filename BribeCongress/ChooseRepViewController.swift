@@ -30,7 +30,11 @@ class ChooseRepViewController: UIViewController, UITableViewDataSource, UITableV
         let sessionTask = session.dataTask(with: request) { (data, response, error) in
             
             let json = JSON(data: data!)
-            print(json)
+            let response = json["response"]
+            let legislators = response["legislator"]
+            for dict in legislators {
+                print(dict)
+            }
         }
         sessionTask.resume()
     }
