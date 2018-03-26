@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 48;
+	objectVersion = 46;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -35,18 +35,18 @@
 /* Begin PBXFileReference section */
 		041E6A2798A821DACE820C230C4837A3 /* Pods-BribeCongress-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-BribeCongress-acknowledgements.plist"; sourceTree = "<group>"; };
 		05CA09B061E193906653AC21FD3A94F1 /* SwiftyJSON-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SwiftyJSON-umbrella.h"; sourceTree = "<group>"; };
-		109D1B19993B05750A5B7DE4FAD7E793 /* SwiftyJSON.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SwiftyJSON.framework; path = SwiftyJSON.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		15868FEFB191167EC2057827079C7D8A /* Pods-BribeCongress.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-BribeCongress.modulemap"; sourceTree = "<group>"; };
+		109D1B19993B05750A5B7DE4FAD7E793 /* SwiftyJSON.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SwiftyJSON.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		15868FEFB191167EC2057827079C7D8A /* Pods-BribeCongress.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-BribeCongress.modulemap"; sourceTree = "<group>"; };
 		2616C548B28100AEDE4D3AE5E78E428F /* Pods-BribeCongressUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-BribeCongressUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		2D76064541E40FD29E83DD579AFF6AEE /* Pods-BribeCongressTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-BribeCongressTests.modulemap"; sourceTree = "<group>"; };
+		2D76064541E40FD29E83DD579AFF6AEE /* Pods-BribeCongressTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-BribeCongressTests.modulemap"; sourceTree = "<group>"; };
 		2E7F7C62EE34D2D271E6E1234A2002B2 /* SwiftyJSON.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SwiftyJSON.xcconfig; sourceTree = "<group>"; };
 		2F3E35CA55ED5B3C75942A570F22CB00 /* Pods-BribeCongress-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-BribeCongress-frameworks.sh"; sourceTree = "<group>"; };
 		32B9BBA8F5B33E56C38F5546432F66B7 /* SwiftyJSON-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SwiftyJSON-dummy.m"; sourceTree = "<group>"; };
 		3F2E477B5D6054D72B3C6C9F8780D933 /* Pods-BribeCongressTests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-BribeCongressTests-frameworks.sh"; sourceTree = "<group>"; };
-		40A3155D22DD0C1AF87CC163AC672590 /* Pods_BribeCongress.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_BribeCongress.framework; path = "Pods-BribeCongress.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		43AF5ADB2460AC80B80503D741437FF9 /* Pods_BribeCongressUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_BribeCongressUITests.framework; path = "Pods-BribeCongressUITests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		40A3155D22DD0C1AF87CC163AC672590 /* Pods_BribeCongress.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BribeCongress.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		43AF5ADB2460AC80B80503D741437FF9 /* Pods_BribeCongressUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BribeCongressUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		454D6B878411B902B75ADFDA754CEF49 /* Pods-BribeCongressTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-BribeCongressTests-acknowledgements.plist"; sourceTree = "<group>"; };
-		57E7D5F5FDB16019E7028D80821B1A06 /* Pods-BribeCongressUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-BribeCongressUITests.modulemap"; sourceTree = "<group>"; };
+		57E7D5F5FDB16019E7028D80821B1A06 /* Pods-BribeCongressUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-BribeCongressUITests.modulemap"; sourceTree = "<group>"; };
 		5C4EE097539616FC372D7566FBFE88D0 /* Pods-BribeCongressTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-BribeCongressTests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		5D3C0BDD4FD618789BFF2144EB00921A /* Pods-BribeCongressTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-BribeCongressTests-dummy.m"; sourceTree = "<group>"; };
 		5F4E43AC15B27B7DCDF4722D49BECC06 /* Pods-BribeCongressUITests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-BribeCongressUITests-frameworks.sh"; sourceTree = "<group>"; };
@@ -58,8 +58,8 @@
 		7ACA2E31B2BD75FC0AB4A12F75AF0F3E /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		87F09AECDF7AEB5A2020E01A1D589A74 /* Pods-BribeCongressTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-BribeCongressTests-umbrella.h"; sourceTree = "<group>"; };
 		8D3D47109862F9E0DC8CAA6E09330EF2 /* Pods-BribeCongress-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-BribeCongress-acknowledgements.markdown"; sourceTree = "<group>"; };
-		91BC7B7DE22B6F0EF1100837FD102B24 /* Pods_BribeCongressTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_BribeCongressTests.framework; path = "Pods-BribeCongressTests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		91BC7B7DE22B6F0EF1100837FD102B24 /* Pods_BribeCongressTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BribeCongressTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		9BDF7F7AE13CC007037619CF0DD487A9 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B0338A2845611B51DCC2EC7263C553E0 /* Pods-BribeCongressUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-BribeCongressUITests-acknowledgements.plist"; sourceTree = "<group>"; };
 		B3CCBE005E95E4C87980D22CBF3122DA /* Pods-BribeCongressTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-BribeCongressTests.release.xcconfig"; sourceTree = "<group>"; };
@@ -68,7 +68,7 @@
 		BDE506ECE97701EBA44FDBFF401C1A04 /* SwiftyJSON.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwiftyJSON.swift; path = Source/SwiftyJSON.swift; sourceTree = "<group>"; };
 		C4A9A658C966F6BB111BEDBDEA1F874A /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C69A7559718171F899D57E9576C48E66 /* Pods-BribeCongress.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-BribeCongress.release.xcconfig"; sourceTree = "<group>"; };
-		D032A29E584B77AE187E586922267CF5 /* SwiftyJSON.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = SwiftyJSON.modulemap; sourceTree = "<group>"; };
+		D032A29E584B77AE187E586922267CF5 /* SwiftyJSON.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = SwiftyJSON.modulemap; sourceTree = "<group>"; };
 		D5FDF57C5969B8794C897E6C99C76857 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DAA704C1447FF35F1C12754D39F589F8 /* Pods-BribeCongressUITests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-BribeCongressUITests-resources.sh"; sourceTree = "<group>"; };
 		E3E6F0CE14B88976E36228430A9F86CC /* Pods-BribeCongress-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-BribeCongress-umbrella.h"; sourceTree = "<group>"; };
@@ -167,7 +167,6 @@
 				BDE506ECE97701EBA44FDBFF401C1A04 /* SwiftyJSON.swift */,
 				8EC39E1DC11846207722B71AAFE40F98 /* Support Files */,
 			);
-			name = SwiftyJSON;
 			path = SwiftyJSON;
 			sourceTree = "<group>";
 		};
@@ -362,7 +361,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0830;
-				LastUpgradeCheck = 0700;
+				LastUpgradeCheck = 0920;
 			};
 			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -706,6 +705,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
 				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				SYMROOT = "${SRCROOT}/../build";
 			};
 			name = Release;

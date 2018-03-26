@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import SwiftyJSON
 
 class ChooseRepViewController: UIViewController, UITableViewDataSource, UITableViewDelegate {
     
@@ -30,7 +31,7 @@ class ChooseRepViewController: UIViewController, UITableViewDataSource, UITableV
 
             // parse the result as JSON, since that's what the API provides
             do {
-                let json = try JSONSerialization.jsonObject(with: data!, options: [])
+                let json = JSON(data: data!)
                 print(json)
             } catch  {
                 print("error trying to convert data to JSON")
