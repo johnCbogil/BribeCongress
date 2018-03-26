@@ -21,22 +21,16 @@ class ChooseRepViewController: UIViewController, UITableViewDataSource, UITableV
     }
     
     func fetchReps() {
-        let url : URL = URL.init(string:"https://www.opensecrets.org/api/?method=getLegislators&id=\(state.code)&apikey=c152b047d8d1697d89d824f265d43df3&output=json")!
+        let url : URL = URL.init(string: "https://www.opensecrets.org/api/?method=getLegislators&id=\(state.code)&apikey=c152b047d8d1697d89d824f265d43df3&output=json")!
         var request : URLRequest = URLRequest.init(url: url)
         request.httpMethod = "GET"
         
         let sessionConfig : URLSessionConfiguration = URLSessionConfiguration.default
         let session : URLSession = URLSession.init(configuration: sessionConfig)
         let sessionTask = session.dataTask(with: request) { (data, response, error) in
-
-            // parse the result as JSON, since that's what the API provides
-            do {
-                let json = JSON(data: data!)
-                print(json)
-            } catch  {
-                print("error trying to convert data to JSON")
-                return
-            }
+            
+            let json = JSON(data: data!)
+            print(json)
         }
         sessionTask.resume()
     }
