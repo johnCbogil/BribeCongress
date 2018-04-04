@@ -21,22 +21,22 @@ class ChooseRepViewController: UIViewController, UITableViewDataSource, UITableV
     }
     
     func fetchReps() {
-        let url : URL = URL.init(string: "https://www.opensecrets.org/api/?method=getLegislators&id=\(state.code)&apikey=c152b047d8d1697d89d824f265d43df3&output=json")!
-        var request : URLRequest = URLRequest.init(url: url)
-        request.httpMethod = "GET"
+        guard let url = URL(string: "https://www.opensecrets.org/api/?method=getLegislators&id=\(state.code)&apikey=c152b047d8d1697d89d824f265d43df3&output=json") else { return }
         
-        let sessionConfig : URLSessionConfiguration = URLSessionConfiguration.default
-        let session : URLSession = URLSession.init(configuration: sessionConfig)
-        let sessionTask = session.dataTask(with: request) { (data, response, error) in
+        let session = URLSession.shared
+        session.dataTask(with: url) { (data, response, error) in
             
-            let json = JSON(data: data!)
-            let response = json["response"]
-            let legislators = response["legislator"]
-            for dict in legislators {
-                print(dict)
+            if let data = data {
+                do {
+                    let json = try JSONSerialization.jsonObject(with: data, options: [])
+                    print(json)
+                    let openSecretsResponse = try JSONDecoder().decode(OSResponse.self, from: data)
+                    print(openSecretsResponse.response.legislator)
+                } catch {
+                    print(error)
+                }
             }
-        }
-        sessionTask.resume()
+            }.resume()
     }
     
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
