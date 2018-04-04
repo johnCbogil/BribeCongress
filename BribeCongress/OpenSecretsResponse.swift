@@ -12,8 +12,12 @@ struct OSResponse: Decodable {
     struct Response: Decodable {
         struct Legislator: Decodable {
             
+            struct Attributes: Decodable {
+                
+            }
         }
         let legislator: [Legislator]
     }
     let response: Response
 }
+

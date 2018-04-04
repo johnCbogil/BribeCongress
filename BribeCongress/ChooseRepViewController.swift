@@ -31,12 +31,24 @@ class ChooseRepViewController: UIViewController, UITableViewDataSource, UITableV
                     let json = try JSONSerialization.jsonObject(with: data, options: [])
                     print(json)
                     let openSecretsResponse = try JSONDecoder().decode(OSResponse.self, from: data)
-                    print(openSecretsResponse.response.legislator)
+                    let legislators = openSecretsResponse.response.legislator
+                    print(legislators)
+                    for legislator in legislators {
+                        for (key,value) in legislator {
+                            
+                        }
+                    }
                 } catch {
                     print(error)
                 }
             }
             }.resume()
+    }
+    
+    func switchKey<T, U>(_ myDict: inout [T:U], fromKey: T, toKey: T) {
+        if let entry = myDict.removeValue(forKey: fromKey) {
+            myDict[toKey] = entry
+        }
     }
     
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
