@@ -24,6 +24,7 @@ class Rep {
     var webform: String
     var website: String
     var youtube: String
+    var cID: String
     
     init(with json:JSON) {
         
@@ -41,5 +42,6 @@ class Rep {
         webform = json["webform"].stringValue
         website = json["website"].stringValue
         youtube = json["youtube_url"].stringValue
+        cID = json["cid"].stringValue
     }
 }

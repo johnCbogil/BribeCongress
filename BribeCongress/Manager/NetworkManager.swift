@@ -32,7 +32,7 @@ struct NetworkManager {
     }
     
     func fetchContributorsForRep(repID:String, completion:@escaping (JSON) -> ()) {
-        let urlString = "http://www.opensecrets.org/api/?method=candContrib&cid=\(repID)&cycle=2016&apikey=c152b047d8d1697d89d824f265d43df3&output=json"
+        let urlString = "https://www.opensecrets.org/api/?method=candContrib&cid=\(repID)&cycle=2016&apikey=c152b047d8d1697d89d824f265d43df3&output=json"
         guard let url = URL(string: urlString) else { return }
         let session = URLSession.shared
         session.dataTask(with: url) { (data, response, error) in
@@ -48,7 +48,7 @@ struct NetworkManager {
     }
     
     func fetchContributorsByIndusryForRep(repID:String, completion:@escaping (JSON) -> ()) {
-        let urlString = "http://www.opensecrets.org/api/?method=candIndustry&cid=\(repID)&cycle=2016&apikey=c152b047d8d1697d89d824f265d43df3&output=json"
+        let urlString = "https://www.opensecrets.org/api/?method=candIndustry&cid=\(repID)&cycle=2016&apikey=c152b047d8d1697d89d824f265d43df3&output=json"
         guard let url = URL(string: urlString) else { return }
         let session = URLSession.shared
         session.dataTask(with: url) { (data, response, error) in
