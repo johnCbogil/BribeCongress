@@ -10,37 +10,36 @@ import Foundation
 import SwiftyJSON
 
 class Rep {
+    var bioguideID: String
+    var birthday: String
+    var facebook: String
+    var firstElected: String
+    var fullName: String
+    var gender: String
+    var office: String
+    var lastName: String
+    var party: String
+    var phone: String
+    var twitter: String
+    var webform: String
+    var website: String
+    var youtube: String
     
-    var bioguideID : String?
-    var birthday : String?
-    var facebook : String?
-    var firstElected : String?
-    var fullName : String?
-    var gender : String?
-    var office : String?
-    var lastName : String?
-    var party : String?
-    var phone : String?
-    var twitter : String?
-    var webform : String?
-    var website : String?
-    var youtube : String?
-    
-    init(with dict:JSON) {
-        print(dict)
-//        bioguideID = dict["bioguide_id"].stringValue
-//        birthday = dict["birthdate"]?.stringValue
-//        facebook = dict["facebook_id"]?.stringValue
-//        firstElected = dict["first_elected"]?.stringValue
-//        fullName = dict["firstlast"]?.stringValue
-//        gender = dict["gender"]?.stringValue
-//        office = dict["office"]?.stringValue
-//        lastName = dict["lastname"]?.stringValue
-//        party = dict["party"]?.stringValue
-//        phone = dict["phone"]?.stringValue
-//        twitter = dict["twitter_id"]?.stringValue
-//        webform = dict["webform"]?.stringValue
-//        website = dict["website"]?.stringValue
-//        youtube = dict["youtube_url"]?.stringValue
+    init(with json:JSON) {
+        
+        bioguideID = json["bioguide_id"].stringValue
+        birthday = json["birthdate"].stringValue
+        facebook = json["facebook_id"].stringValue
+        firstElected = json["first_elected"].stringValue
+        fullName = json["firstlast"].stringValue
+        gender = json["gender"].stringValue
+        office = json["office"].stringValue
+        lastName = json["lastname"].stringValue
+        party = json["party"].stringValue
+        phone = json["phone"].stringValue
+        twitter = json["twitter_id"].stringValue
+        webform = json["webform"].stringValue
+        website = json["website"].stringValue
+        youtube = json["youtube_url"].stringValue
     }
 }

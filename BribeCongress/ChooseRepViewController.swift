@@ -11,32 +11,36 @@ import SwiftyJSON
 
 class ChooseRepViewController: UIViewController, UITableViewDataSource, UITableViewDelegate {
     
-    var state : State!
-    var repsArray : Array<Rep>!
+    @IBOutlet weak var tableView: UITableView!
+    var state: State!
+    var repsArray : Array <Rep>!
     
     override func viewDidLoad() {
         super.viewDidLoad()
         self.fetchReps()
         self.title = state.name
+        repsArray = []
+        self.tableView.delegate = self
+        self.tableView.dataSource = self
     }
     
     func fetchReps() {
-        let url : URL = URL.init(string: "https://www.opensecrets.org/api/?method=getLegislators&id=\(state.code)&apikey=c152b047d8d1697d89d824f265d43df3&output=json")!
-        var request : URLRequest = URLRequest.init(url: url)
-        request.httpMethod = "GET"
+        guard let url = URL(string: "https://www.opensecrets.org/api/?method=getLegislators&id=\(state.code)&apikey=c152b047d8d1697d89d824f265d43df3&output=json") else { return }
         
-        let sessionConfig : URLSessionConfiguration = URLSessionConfiguration.default
-        let session : URLSession = URLSession.init(configuration: sessionConfig)
-        let sessionTask = session.dataTask(with: request) { (data, response, error) in
-            
-            let json = JSON(data: data!)
-            let response = json["response"]
-            let legislators = response["legislator"]
-            for dict in legislators {
-                print(dict)
+        let session = URLSession.shared
+        session.dataTask(with: url) { (data, response, error) in
+            if let data = data {
+                let json = JSON(data: data)
+                let response = json["response"]
+                let legislators = response["legislator"].arrayValue
+                for legislator in legislators {
+                    let rep = Rep.init(with: legislator["@attributes"])
+                    print(rep.fullName)
+                    self.repsArray.append(rep)
+                }
             }
-        }
-        sessionTask.resume()
+            }.resume()
+        self.tableView.reloadData()
     }
     
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
