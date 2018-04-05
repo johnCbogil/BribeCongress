@@ -13,7 +13,7 @@ class ChooseRepViewController: UIViewController, UITableViewDataSource, UITableV
     
     @IBOutlet weak var tableView: UITableView!
     var state: State!
-    var repsArray : Array <Rep>!
+    var repsArray: Array <Rep>!
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -52,5 +52,10 @@ class ChooseRepViewController: UIViewController, UITableViewDataSource, UITableV
     
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
         tableView.deselectRow(at: indexPath, animated: true)
+        if let storyboard : UIStoryboard = self.storyboard {
+            let repDetailVC : RepDetailViewController = storyboard.instantiateViewController(withIdentifier: "RepDetailViewController") as! RepDetailViewController
+            repDetailVC.rep = repsArray[indexPath.row]
+            self.navigationController?.pushViewController(repDetailVC, animated: true)
+        }
     }
 }
