@@ -18,6 +18,7 @@
 		94B3BD622064015000EA8C16 /* BribeCongressUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94B3BD612064015000EA8C16 /* BribeCongressUITests.swift */; };
 		94B3BD702064031200EA8C16 /* States.json in Resources */ = {isa = PBXBuildFile; fileRef = 94B3BD6F2064031200EA8C16 /* States.json */; };
 		94B3BD762064039D00EA8C16 /* ChooseStateViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94B3BD752064039D00EA8C16 /* ChooseStateViewController.swift */; };
+		94D44287207664DA0011B635 /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94D44286207664DA0011B635 /* NetworkManager.swift */; };
 		BFB02E06D8B670D83C83E6DE /* Pods_BribeCongressUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4D32129D4FF0E643D56888D6 /* Pods_BribeCongressUITests.framework */; };
 		C3FEC237757EFAF98C5032D0 /* Pods_BribeCongressTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 71BBF062956F6BE9C4FDE94E /* Pods_BribeCongressTests.framework */; };
 		FE2330703CAEE67DED23B107 /* Pods_BribeCongress.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 58C173218DD5769A0391293C /* Pods_BribeCongress.framework */; };
@@ -63,6 +64,7 @@
 		94B3BD632064015000EA8C16 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		94B3BD6F2064031200EA8C16 /* States.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = States.json; sourceTree = "<group>"; };
 		94B3BD752064039D00EA8C16 /* ChooseStateViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChooseStateViewController.swift; sourceTree = "<group>"; };
+		94D44286207664DA0011B635 /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
 		B05D188CE475BBC2CA74877D /* Pods-BribeCongressUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BribeCongressUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BribeCongressUITests/Pods-BribeCongressUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		B7AF79AC2B5472396F1AB05C /* Pods-BribeCongress.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BribeCongress.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BribeCongress/Pods-BribeCongress.debug.xcconfig"; sourceTree = "<group>"; };
 		E13C684EA6C616999776A1D2 /* Pods-BribeCongress.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BribeCongress.release.xcconfig"; path = "Pods/Target Support Files/Pods-BribeCongress/Pods-BribeCongress.release.xcconfig"; sourceTree = "<group>"; };
@@ -155,6 +157,7 @@
 				945080E42066AB9500E855FC /* State.swift */,
 				945080E82066CA2800E855FC /* Rep.swift */,
 				945080E62066BB7F00E855FC /* ChooseRepViewController.swift */,
+				94D44286207664DA0011B635 /* NetworkManager.swift */,
 			);
 			path = BribeCongress;
 			sourceTree = "<group>";
@@ -471,6 +474,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				94D44287207664DA0011B635 /* NetworkManager.swift in Sources */,
 				94B3BD762064039D00EA8C16 /* ChooseStateViewController.swift in Sources */,
 				94B3BD422064015000EA8C16 /* AppDelegate.swift in Sources */,
 				945080E52066AB9500E855FC /* State.swift in Sources */,
