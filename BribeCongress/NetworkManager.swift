@@ -19,21 +19,15 @@ struct NetworkManager {
         let session = URLSession.shared
         session.dataTask(with: url) { (data, response, error) in
             if let data = data {
-                let json = JSON(data: data)
                 
-                completion(json)
-                
-                
-                
-                //                let json = JSON(data: data)
-                //                let response = json["response"]
-                //                let legislators = response["legislator"].arrayValue
-                //                for legislator in legislators {
-                //                    let rep = Rep.init(with: legislator["@attributes"])
-                //                    print(rep.fullName)
-                //                    self.repsArray.append(rep)
+                do {
+                    let json = try JSON(data: data)
+                    completion(json)
+                } catch {
+                    print(error)
+                    // or display a dialog
+                }
             }
-            //            }
             }.resume()
     }
 }

@@ -25,9 +25,18 @@ class ChooseRepViewController: UIViewController, UITableViewDataSource, UITableV
     }
     
     func fetchReps() {
-                NetworkManager.sharedInstance.fetchLegislatorsForState(state: "AL") {
+        NetworkManager.sharedInstance.fetchLegislatorsForState(state: self.state.code) {
             (json) in
-            print(json)
+            
+            let response = json["response"]
+            let legislators = response["legislator"].arrayValue
+            for legislator in legislators {
+                let rep = Rep.init(with: legislator["@attributes"])
+                self.repsArray.append(rep)
+                DispatchQueue.main.async {
+                    self.tableView.reloadData()
+                }
+            }
         }
     }
     

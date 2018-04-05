@@ -19,6 +19,7 @@
 		94B3BD702064031200EA8C16 /* States.json in Resources */ = {isa = PBXBuildFile; fileRef = 94B3BD6F2064031200EA8C16 /* States.json */; };
 		94B3BD762064039D00EA8C16 /* ChooseStateViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94B3BD752064039D00EA8C16 /* ChooseStateViewController.swift */; };
 		94D44287207664DA0011B635 /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94D44286207664DA0011B635 /* NetworkManager.swift */; };
+		94EC970F2076710F002F87CA /* SwiftyJSON.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 94EC970E2076710F002F87CA /* SwiftyJSON.framework */; };
 		BFB02E06D8B670D83C83E6DE /* Pods_BribeCongressUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4D32129D4FF0E643D56888D6 /* Pods_BribeCongressUITests.framework */; };
 		C3FEC237757EFAF98C5032D0 /* Pods_BribeCongressTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 71BBF062956F6BE9C4FDE94E /* Pods_BribeCongressTests.framework */; };
 		FE2330703CAEE67DED23B107 /* Pods_BribeCongress.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 58C173218DD5769A0391293C /* Pods_BribeCongress.framework */; };
@@ -65,6 +66,7 @@
 		94B3BD6F2064031200EA8C16 /* States.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = States.json; sourceTree = "<group>"; };
 		94B3BD752064039D00EA8C16 /* ChooseStateViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChooseStateViewController.swift; sourceTree = "<group>"; };
 		94D44286207664DA0011B635 /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
+		94EC970E2076710F002F87CA /* SwiftyJSON.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = SwiftyJSON.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B05D188CE475BBC2CA74877D /* Pods-BribeCongressUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BribeCongressUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BribeCongressUITests/Pods-BribeCongressUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		B7AF79AC2B5472396F1AB05C /* Pods-BribeCongress.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BribeCongress.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BribeCongress/Pods-BribeCongress.debug.xcconfig"; sourceTree = "<group>"; };
 		E13C684EA6C616999776A1D2 /* Pods-BribeCongress.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BribeCongress.release.xcconfig"; path = "Pods/Target Support Files/Pods-BribeCongress/Pods-BribeCongress.release.xcconfig"; sourceTree = "<group>"; };
@@ -76,6 +78,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				94EC970F2076710F002F87CA /* SwiftyJSON.framework in Frameworks */,
 				FE2330703CAEE67DED23B107 /* Pods_BribeCongress.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -115,6 +118,7 @@
 		4CDA662342E2288ACEAEB173 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				94EC970E2076710F002F87CA /* SwiftyJSON.framework */,
 				58C173218DD5769A0391293C /* Pods_BribeCongress.framework */,
 				71BBF062956F6BE9C4FDE94E /* Pods_BribeCongressTests.framework */,
 				4D32129D4FF0E643D56888D6 /* Pods_BribeCongressUITests.framework */,
@@ -252,7 +256,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0920;
-				LastUpgradeCheck = 0920;
+				LastUpgradeCheck = 0930;
 				ORGANIZATIONNAME = "John Bogil";
 				TargetAttributes = {
 					94B3BD3D2064015000EA8C16 = {
@@ -548,6 +552,7 @@
 				CLANG_WARN_BOOL_CONVERSION = YES;
 				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
@@ -555,6 +560,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
@@ -605,6 +611,7 @@
 				CLANG_WARN_BOOL_CONVERSION = YES;
 				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
@@ -612,6 +619,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;

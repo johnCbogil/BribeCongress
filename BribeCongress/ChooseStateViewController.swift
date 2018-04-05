@@ -32,11 +32,16 @@ class ChooseStateViewController: UIViewController, UITableViewDataSource, UITabl
         if let path = Bundle.main.path(forResource: "States", ofType: "json") {
             do {
                 let data = try Data(contentsOf: URL(fileURLWithPath: path), options: .mappedIfSafe)
-                let json = JSON(data: data)
+                do {
+                let json = try JSON(data: data)
                 let statesDict : Dictionary = json.dictionaryValue
                 for (stateCode, stateName) in statesDict {
                     let state : State = State.init(with: stateName.stringValue, stateCode: stateCode)
                     statesArray.append(state)
+                }
+                }
+                catch {
+                    print(error)
                 }
                 statesArray = statesArray.sorted {$0.name < $1.name}
             } catch {
